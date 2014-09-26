@@ -31,9 +31,6 @@ endif
 
 set noswapfile
 
-" CSC specific filetype-extension mappings
-au BufNewFile,BufRead *.vsc setlocal ft=xml
-
 " mappings
 
 nnoremap <silent> <F7> :tabprev<CR>
